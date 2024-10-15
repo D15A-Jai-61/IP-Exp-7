@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Management API</h1>
+        <div class="actions">
+            <button id="getAllProducts">Get All Products</button>
+            <input type="number" id="productId" placeholder="Enter Product ID">
+            <button id="getProductById">Get Product by ID</button>
+        </div>
+        <div class="search-form">
+            <input type="text" id="searchName" placeholder="Product Name">
+            <input type="text" id="searchCategory" placeholder="Category">
+            <input type="number" id="searchMinPrice" placeholder="Min Price">
+            <input type="number" id="searchMaxPrice" placeholder="Max Price">
+            <button id="searchProducts">Search Products</button>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
